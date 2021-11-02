@@ -1,0 +1,191 @@
+html, body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputMezo {
+    border: none;
+    border-radius: 25px;
+    margin-top: 1em;
+    height: 2em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 27.5px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #7289DA;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #7289DA;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.button-uj {
+    border: none;
+    border-radius: 25px;
+    background-color: #7289DA;
+    color: white;
+    font-weight: bold;
+    height: 3em;
+    width: 8em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.button-uj:hover {
+    background-color: #4E5D94;
+}
+
+.button-megse {
+    background-color: #778899;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    height: 3em;
+    width: 8em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.button-megse:hover {
+    background-color: #2F4F4F;
+}
+
+.button-torles {
+    border: none;
+    border-radius: 25px;
+    background-color: #cc0000;
+    color: white;
+    font-weight: bold;
+    height: 3em;
+    width: 8em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.button-torles:hover {
+    background-color: #990000;
+}
+
+a:link, a:visited {
+    border: none;
+    border-radius: 25px;
+    background-color: #7289DA;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    text-decoration: none;
+    height: 3em;
+    width: 8em;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-top: 3em;
+}
+
+a:hover, a:active {
+    background-color: #4E5D94;
+}
+
+.grid-kinezet {
+    background-color: white;
+    box-shadow: 5px 5px;
+    margin-bottom: 5em;
+}
+
+.grid-tartalom-kozep {
+    margin: auto;
+    padding: 3em;
+}
+
+.div-switch {
+    margin-top: 1em;
+}
+
+.forgatason-label {
+    font-weight: bold;
+}
+
+label {
+    vertical-align: middle;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.igazit-bal {
+    text-align: left;
+}
+
+.igazit-jobb {
+    float: right;
+}
+
+h2, h1 {
+    font-weight: bold;
+}
+
+#header {
+    background-color: #7289DA;
+    color: white;
+    height: 15em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+
+#szerkesztesH1 {
+    margin-right: 1em;
+}
